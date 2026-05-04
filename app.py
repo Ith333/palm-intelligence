@@ -27,7 +27,7 @@ except KeyError:
     st.stop()
 
 # Initialisation du modèle (Gemini 1.5 Pro pour l'expertise profonde)
-model = genai.GenerativeModel('gemini-3.1-pro')
+model = genai.GenerativeModel('gemini-2.5-pro')
 
 # -------------------------------------------------------------------
 # 3. LE PROMPT SYSTÈME (EXPERT CONSULTANT & PALM-CIRCULAR)
