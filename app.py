@@ -5,10 +5,9 @@ from PIL import Image
 
 # -------------------------------------------------------------------
 # 1. CONFIGURATION DE LA PAGE
-# -------------------------------------------------------------------
+#-------------------------------------------------------------------
 st.set_page_config(page_title="PALM-INTELLIGENCE V2 PRO", layout="wide")
-st.set_page_config(page_icon= "🌴")
-icon_len=len(layout)
+st.set_page_config(page_icon= "🌴", layout="wide")
 # Masquer le menu Streamlit pour garder une interface propre
 hide_st_style = """
             <style>
@@ -17,8 +16,14 @@ hide_st_style = """
             header {visibility: hidden;}
             </style>
             """
-st.markdown(hide_st_style, unsafe_allow_html=True)
-
+              .stImage > img{
+                width: 100%;
+                border-radius: 10px;
+                border: 1px solid
+#ddd;
+             </style>
+             """       
+st.markdown(hide_st_style, unsafe_allow_html=True)             
 # -------------------------------------------------------------------
 # 2. CONFIGURATION DE L'API GEMINI
 # -------------------------------------------------------------------
