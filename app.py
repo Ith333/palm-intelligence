@@ -1,12 +1,14 @@
 import streamlit as st
 import google.generativeai as genai
+import numpy as np
 from PIL import Image
 
 # -------------------------------------------------------------------
 # 1. CONFIGURATION DE LA PAGE
 # -------------------------------------------------------------------
-st.set_page_config(page_title="PALM-INTELLIGENCE V2 PRO", layout="centered")
-st.set_page_config(page_icon= "🌴", layout="wide")
+st.set_page_config(page_title="PALM-INTELLIGENCE V2 PRO", layout="wide")
+st.set_page_config(page_icon= "🌴")
+icon_len=len(layout)
 # Masquer le menu Streamlit pour garder une interface propre
 hide_st_style = """
             <style>
