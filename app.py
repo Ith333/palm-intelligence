@@ -6,8 +6,7 @@ from PIL import Image
 # -------------------------------------------------------------------
 # 1. CONFIGURATION DE LA PAGE
 #-------------------------------------------------------------------
-st.set_page_config(page_title="PALM-INTELLIGENCE V2 PRO", layout="wide")
-st.set_page_config(page_icon= "🌴", layout="wide")
+st.set_page_config(page_title="PALM-INTELLIGENCE V2 PRO", page_icon="🌴", layout="wide")
 # Masquer le menu Streamlit pour garder une interface propre
 hide_st_style = """
             <style>
