@@ -16,7 +16,7 @@ hide_st_style = """
             header {visibility: hidden;}
             </style>
             """
-              .stImage > img{
+              .stImage > img {
                 width: 100%;
                 border-radius: 10px;
                 border: 1px solid
